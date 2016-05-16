@@ -1,4 +1,4 @@
-# Brunch + React + Babel/ES6
+# Brunch + React + Babel/ES6 + Ava
 
 This is a modern JS skeleton with React and Ava for [Brunch](http://brunch.io).
 
