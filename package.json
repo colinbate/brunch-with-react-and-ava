@@ -1,0 +1,35 @@
+{
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production",
+    "test": "ava app/**/*.test.js --verbose --require babel-register"
+  },
+  "ava": {
+    "babel": "inherit"
+  },
+  "dependencies": {
+    "react": "~0.14.8",
+    "react-dom": "~0.14.8"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "ava": "^0.14.0",
+    "babel-brunch": "~6.0.0",
+    "babel-preset-es2015": "~6.3.13",
+    "babel-preset-react": "~6.3.13",
+    "brunch": "^2.4.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "react-addons-test-utils": "^0.14.8",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
